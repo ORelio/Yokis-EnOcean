@@ -30,7 +30,7 @@ These instructions are for advanced users with sufficient knowledge of Linux com
     * Paste the following, adjusting your `USERNAME`:
 ```ini
 [Unit]
-Description=Rabbit Home
+Description=Yokis EnOcean
 After=local-fs.target network.target systemd-tmpfiles-setup.service
 
 [Service]
