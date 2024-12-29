@@ -19,7 +19,7 @@ These instructions are for advanced users with sufficient knowledge of Linux com
 1. Install utilities : `shuttercmd` and `enoceanserial`.
     * See [Rabbit-Home/utilities](http://github.com/ORelio/Rabbit-Home/tree/master/utilities) for instructions.
 2. Install python dependency for `enocean.py`:
-    * `pip install crc8>=0.2.1`
+    * `pip install 'crc8>=0.2.1'`
 2. Upload the `yokis-enocean` folder to your home directory:
     * `/home/USERNAME/yokis-enocean` should contain `yokis-enocean.py`
 4. Enable lingering services for your account:
